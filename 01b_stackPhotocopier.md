@@ -2,7 +2,7 @@
 
 Time to upgrade our photocopier, it now takes in a pile of blueprints and must make copies of them (with the `isCopy` property set to `true`).
 
-As before though, we must make sure
+As before though, this is a pure function so we must make sure
 
 - the original blueprints are not altered/mutated
 - that none of the returned objects are the same as the ones passed in

@@ -20,7 +20,7 @@ const blueprint = {
 }
 
 const copy = photocopier(blueprint)
-/*
+/* returns
 {
     isCopy: true,
     title: "A guide to goat rearing",
