@@ -1,7 +1,5 @@
 # politeRequests
 
-THERES A DANGER THEY DO THIS INSTEAD OF PGFORMAT
-
 This function takes in three arguments
     - A string which is an instruction, with a % in place of a person's name. Eg. "Feed the cat %"
     - An array of names, e.g. ["Katherine", "Tim", "Caroline", "Suzanna"]
