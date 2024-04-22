@@ -11,10 +11,10 @@ If the boolean is `true`, each instruction must also have "please" added to the 
 For example:
 
 ```js
-makeItPolite("Go to the bank %", ["Katherine", "Tim"], true)
+politeRequests("Go to the bank %", ["Katherine", "Tim"], true)
 // returns ["Go to the bank Katherine please", "Go to the bank Tim please"]
 
-makeItPolite("Fetch me a drink %", ["Caroline", "Suzanna"], false)
+politeRequests("Fetch me a drink %", ["Caroline", "Suzanna"], false)
 // returns ["Fetch me a drink Caroline", "Fetch me a drink Suzanna"]
 ```
 
