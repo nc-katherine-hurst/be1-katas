@@ -3,7 +3,7 @@
 
 Every year there is a grand goat race, and you recieve the data about participating goats in the following format:
 
-`"Bleaters: 01:00:00, Professor Dandelion 00:30:00"`
+`"Bleaters: 01:00:00, Professor Dandelion: 00:30:00"`
 
 Where we have the name of the goat, followed by their race time in hours, minutes and seconds.
 
