@@ -6,7 +6,7 @@ This function takes in three arguments
     - A boolean which determines whether or not the returned instructions will be polite, (i.e. appended with "please").
 
 It must return an array of instruction strings, with the % replaced with each  of the names in the array in turn.
-If the boolean is true, each instruction must also have "please" added to the end of each string.
+If the boolean is `true`, each instruction must also have "please" added to the end of each string.
 
 For example:
 
