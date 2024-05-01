@@ -1,11 +1,11 @@
 # stackPhotocopier
 
-Time to upgrade our photocopier, it now takes in a pile of blueprints and must make copies of them (with the `isCopy` property set to `true`).
+Time to upgrade our photocopier, it now takes in a pile (an array) of blueprints and must make copies of them (with the `isCopy` property set to `true`).
 
-As before though, this is a pure function so we must make sure
+As before though, this is a pure function so we must make sure:
 
-- the original blueprints are not altered/mutated
-- that none of the returned objects are the same as the ones passed in
+- that none of the returned objects are the same as the ones passed in.
+- the original blueprints are not altered/mutated.
 
 ```js
 const blueprints = [
@@ -21,8 +21,8 @@ const blueprints = [
   },
   {
     isCopy: false,
-    title: "hello world",
-    subtitle: "something else",
+    title: "Hello world",
+    subtitle: "A dev story",
   },
 ];
 ```
@@ -43,8 +43,8 @@ should return:
   },
   {
     isCopy: true,
-    title: "hello world",
-    subtitle: "something else",
+    title: "Hello world",
+    subtitle: "A dev story",
   },
 ];
 ```

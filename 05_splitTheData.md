@@ -17,7 +17,7 @@ const gamerData = [
 ];
 ```
 
-Change how the data is organised into the following:
+The function `splitTheData` returns the data reorganised into a new object with keys of `people`, `games` and `gamesPeopleLike`, like so:
 
 ```js
 {
@@ -31,13 +31,11 @@ Change how the data is organised into the following:
             name: 'Tim'
         }
     ],
-
     games: {
         1: 'Minecraft',
         2: 'Factorio',
         3: 'Bingo'
     }
-
     gamesPeopleLike: {
         1:1, // Katherine likes Minecraft
         1:2, // Katherine likes Factorio
@@ -46,3 +44,5 @@ Change how the data is organised into the following:
     }
 }
 ```
+
+It's important we don't change the original data, this function will need to be pure.

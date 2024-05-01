@@ -6,8 +6,8 @@ The function returns a copy of that object, with `isCopy` set to `true`.
 
 This function needs to be pure, so in your tests you should check:
 
+- The copy that the function returns isn’t accidentally the same object as the blueprint that was passed in. 
 - The original blueprint object is unchanged.
-- The copy that the function returns isn’t accidentally the same object as the blueprint that was passed in.
 
 For example a blueprint could look like this:
 
@@ -19,7 +19,7 @@ const blueprint = {
     author: "Katherine"
 }
 
-const copy = photocopier(blueprint)
+photocopier(blueprint)
 /* returns
 {
     isCopy: true,
