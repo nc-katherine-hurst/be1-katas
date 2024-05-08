@@ -17,7 +17,7 @@ It's your job to write a function which takes in this information, and returns a
 }
 ```
 
-This describes the winning goat, the goat in last place and the average time of all the goats in the race, rounded up to the nearest second. 
+This describes the winning goat on a key of `firstPlace`, the goat in last place on a key of `lastPlace` and the average time of all the goats in the race, rounded up to the nearest second on a key of `averageTime`. 
 
 **Build up your tests gradually and flexibly, adding separate tests for each key value pair in the returned object.**
 
