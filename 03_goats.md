@@ -1,5 +1,4 @@
-
-## The Grand Goat Race
+# The Grand Goat Race
 
 Every year there is a Grand Goat Race, and you recieve the data about participating goats in the following format:
 
