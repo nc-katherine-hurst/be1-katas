@@ -46,3 +46,5 @@ The function `splitTheData` returns the data reorganised into a new object with 
 ```
 
 It's important we don't change the original data, this function will need to be pure.
+
+**Build up your tests gradually and flexibly, adding separate tests for each key value pair in the returned object.**

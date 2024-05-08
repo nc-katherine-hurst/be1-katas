@@ -19,7 +19,7 @@ It's your job to write a function which takes in this information, and returns a
 
 This describes the winning goat, the goat in last place and the average time of all the goats in the race, rounded up to the nearest second. 
 
-Build up your tests gradually and flexibly, adding separate tests for each key value pair in the returned object.
+**Build up your tests gradually and flexibly, adding separate tests for each key value pair in the returned object.**
 
 
 
