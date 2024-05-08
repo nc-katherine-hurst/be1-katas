@@ -1,7 +1,7 @@
 
 ## The Grand Goat Race
 
-Every year there is a grand goat race, and you recieve the data about participating goats in the following format:
+Every year there is a Grand Goat Race, and you recieve the data about participating goats in the following format:
 
 `"Bleaters: 01:00:00, Professor Dandelion: 00:30:00, Katherine Jr.: 00:45:00"`
 
