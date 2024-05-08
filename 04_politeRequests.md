@@ -1,9 +1,10 @@
 # politeRequests
 
-This function takes in three arguments
-    - A string which is an instruction, with a "%" in place of a person's name. Eg. "Feed the cat %"
-    - An array of names, e.g. `["Katherine", "Tim", "Caz", "Zanna"]`
-    - A boolean which determines whether or not the returned instructions will be polite, with "please" added before their name.
+This function takes in three arguments:
+
+  - A string which is an instruction, with a "%" in place of a person's name. Eg. "Feed the cat %"
+  - An array of names, e.g. `["Katherine", "Tim", "Caz", "Zanna"]`
+  - A boolean which determines whether or not the returned instructions will be polite, with "please" added before their name.
 
 It must return an array of instruction strings, with the % replaced with each  of the names in the array in turn.
 If the boolean is `true`, each instruction must also have "please" added to the string before their name.

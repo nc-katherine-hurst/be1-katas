@@ -17,7 +17,9 @@ const gamerData = [
 ];
 ```
 
-The function `splitTheData` returns the data reorganised into a new object with keys of `people`, `games` and `gamesPeopleLike`, like so:
+The function `splitTheData` returns the data reorganised into a new object with keys of `people`, `games` and `gamesPeopleLike`.
+
+So `splitTheData(gamerData)` returns:
 
 ```js
 {
